@@ -1,4 +1,4 @@
-package main
+package lab1
 
 import (
 	"bufio"
@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func thirteenMain() {
+func ThirteenMain() {
 	r := bufio.NewReader(os.Stdin)
 
 	var n int

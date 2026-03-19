@@ -1,11 +1,11 @@
-package main
+package lab1
 
 import (
 	"fmt"
 	"strconv"
 )
 
-func fiveMain() {
+func FiveMain() {
 	var firstNum string
 	var secondNum string
 	var operand string

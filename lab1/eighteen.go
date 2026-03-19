@@ -1,11 +1,11 @@
-package main
+package lab1
 
 import (
 	"fmt"
 	"math"
 )
 
-func eighteenMain() {
+func EighteenMain() {
 	var n, k int
 	fmt.Scan(&n, &k)
 

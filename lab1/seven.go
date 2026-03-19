@@ -1,10 +1,10 @@
-package main
+package lab1
 
 import (
 	"fmt"
 )
 
-func sevenMain() {
+func SevenMain() {
 	var n int
 	fmt.Scan(&n)
 	arr := make([]int, n)

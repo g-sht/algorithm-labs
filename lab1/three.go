@@ -1,4 +1,26 @@
-package main
+package lab1
+
+import "fmt"
+
+func ThreeMain() {
+	var n, m int
+	fmt.Scan(&n, &m)
+
+	a := make([]int, n)
+	b := make([]int, m)
+
+	for i := range n {
+		fmt.Scan(&a[i])
+	}
+	for i := range m {
+		fmt.Scan(&b[i])
+	}
+
+	ans := simDiff(a, b)
+	for _, el := range ans {
+		fmt.Print(el, " ")
+	}
+}
 
 func simDiff(a, b []int) []int {
 	simDiff := make([]int, 0, 2)

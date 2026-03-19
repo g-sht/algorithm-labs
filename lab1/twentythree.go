@@ -1,4 +1,4 @@
-package main
+package lab1
 
 import (
 	"bufio"
@@ -72,7 +72,7 @@ func (h *Heap) HeapSort() []*Contestant {
 	return h.items
 }
 
-func twentythreeMain() {
+func TwentythreeMain() {
 	in := bufio.NewReader(os.Stdin)
 	out := bufio.NewWriter(os.Stdout)
 	defer out.Flush()

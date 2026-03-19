@@ -1,4 +1,4 @@
-package main
+package lab1
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ type Record struct {
 	values []int
 }
 
-func fourteenMain() {
+func FourteenMain() {
 	var n, k int
 	fmt.Scan(&n, &k)
 

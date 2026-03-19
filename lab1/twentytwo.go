@@ -1,4 +1,4 @@
-package main
+package lab1
 
 import (
 	"bufio"
@@ -84,7 +84,7 @@ type Move struct {
 	toCity string
 }
 
-func twentytwoMain() {
+func TwentytwoMain() {
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Split(bufio.ScanWords)
 
